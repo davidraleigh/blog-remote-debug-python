@@ -11,11 +11,11 @@ To complete this tutorial you'll need a Google Cloud Platform (GCP) account with
 Notes on the format of the blog: Wherever possible I try to use __bold__ type for user interface elements that you'll interact with, *italics* type for filenames, directory names and values you'll enter in fields, and `code blocks` will be reserved for code examples and bash commands. I'm human, there will be errors.
 
 This tutorial was completed using the following versions:
-PyCharm Professional: 2017.1.4
-GCP VM Image Container-Optimized OS: 59.9460.64.0 stable
-GCP VM Image Docker version: 1.11.2
-gcloud Google Cloud SDK: 159.0.0
-Mac OS: El Capitan 10.11.6 (but this all should work from Windows or Linux as PyCharm is cross platform)
+- PyCharm Professional: 2017.1.4
+- GCP VM Image Container-Optimized OS: 59.9460.64.0 stable
+- GCP VM Image Docker version: 1.11.2
+- gcloud Google Cloud SDK: 159.0.0
+- Mac OS: El Capitan 10.11.6 (but this all should work from Windows or Linux as PyCharm is cross platform)
 
 ### Firewall Rules
 First off you'll need to create a new firewall rule for your project so you can ssh into the Docker Container's port. We'll use the port number 52022. Go to the table of contents in Google cloud and select Networking and then the Firewall Rules:
